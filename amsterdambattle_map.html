@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_9baf1825b552471b8e2478c1b5bdeed6 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9baf1825b552471b8e2478c1b5bdeed6" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_9baf1825b552471b8e2478c1b5bdeed6 = L.map(
+                                  'map_9baf1825b552471b8e2478c1b5bdeed6',
+                                  {center: [52.3662892,4.85383765855202],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d7cb6568482f4d04aa4b810abb9a1d5d = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_9baf1825b552471b8e2478c1b5bdeed6);
+        
+    
+
+            var circle_84c947173e4345708ae6d15b90cb0975 = L.circle(
+                [52.3748051692204,4.88078627002041],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "None",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 250,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9baf1825b552471b8e2478c1b5bdeed6);
+            
+    
+            var popup_ee2dd17232b84b868b3b01c5f9416338 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a80f3ad3a154d789a315971c47a95d7 = $('<div id="html_6a80f3ad3a154d789a315971c47a95d7" style="width: 100.0%; height: 100.0%;">Jordaan</div>')[0];
+                popup_ee2dd17232b84b868b3b01c5f9416338.setContent(html_6a80f3ad3a154d789a315971c47a95d7);
+            
+
+            circle_84c947173e4345708ae6d15b90cb0975.bindPopup(popup_ee2dd17232b84b868b3b01c5f9416338);
+
+            
+        
+    
+
+            var circle_0b973ff633904961baa6de29543cc30f = L.circle(
+                [52.382340368597795,4.87406722981445],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "None",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 250,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9baf1825b552471b8e2478c1b5bdeed6);
+            
+    
+            var popup_2cfab0ec4bef4107955883915e4d280d = L.popup({maxWidth: '300'});
+
+            
+                var html_441be38c7fc146e391890442addf34f4 = $('<div id="html_441be38c7fc146e391890442addf34f4" style="width: 100.0%; height: 100.0%;">Staatsliedenbuurt</div>')[0];
+                popup_2cfab0ec4bef4107955883915e4d280d.setContent(html_441be38c7fc146e391890442addf34f4);
+            
+
+            circle_0b973ff633904961baa6de29543cc30f.bindPopup(popup_2cfab0ec4bef4107955883915e4d280d);
+
+            
+        
+    
+
+            var circle_13da6917a83f410a84727830e0c9b4dc = L.circle(
+                [52.356053777768295,4.89464612825605],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "None",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 250,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9baf1825b552471b8e2478c1b5bdeed6);
+            
+    
+            var popup_2ca3c291dc3f4aed92c368ccf92b3f32 = L.popup({maxWidth: '300'});
+
+            
+                var html_e18e5871f3fe4f878efc7fe5e1c96763 = $('<div id="html_e18e5871f3fe4f878efc7fe5e1c96763" style="width: 100.0%; height: 100.0%;">Oude Pijp</div>')[0];
+                popup_2ca3c291dc3f4aed92c368ccf92b3f32.setContent(html_e18e5871f3fe4f878efc7fe5e1c96763);
+            
+
+            circle_13da6917a83f410a84727830e0c9b4dc.bindPopup(popup_2ca3c291dc3f4aed92c368ccf92b3f32);
+
+            
+        
+    
+
+            var circle_6071b339fa2943ac91d9ff5565ab75fd = L.circle(
+                [52.351907143479096,4.8960203177585395],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "None",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 250,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9baf1825b552471b8e2478c1b5bdeed6);
+            
+    
+            var popup_73cb1a26268d42b7823721c25fb86a28 = L.popup({maxWidth: '300'});
+
+            
+                var html_e9b3da6840fd494f963d153a550c2725 = $('<div id="html_e9b3da6840fd494f963d153a550c2725" style="width: 100.0%; height: 100.0%;">Nieuwe Pijp</div>')[0];
+                popup_73cb1a26268d42b7823721c25fb86a28.setContent(html_e9b3da6840fd494f963d153a550c2725);
+            
+
+            circle_6071b339fa2943ac91d9ff5565ab75fd.bindPopup(popup_73cb1a26268d42b7823721c25fb86a28);
+
+            
+        
+    
+
+            var circle_6e46f3f0925d491c8b1a151d5e1917a7 = L.circle(
+                [52.362562223256795,4.936054933063451],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "None",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 250,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9baf1825b552471b8e2478c1b5bdeed6);
+            
+    
+            var popup_32da61f6b95e49b49ad496acb29423d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_f642ee7e63dc44adb1af579e461f827b = $('<div id="html_f642ee7e63dc44adb1af579e461f827b" style="width: 100.0%; height: 100.0%;">Indische Buurt West</div>')[0];
+                popup_32da61f6b95e49b49ad496acb29423d0.setContent(html_f642ee7e63dc44adb1af579e461f827b);
+            
+
+            circle_6e46f3f0925d491c8b1a151d5e1917a7.bindPopup(popup_32da61f6b95e49b49ad496acb29423d0);
+
+            
+        
+    
+
+            var circle_812721618e374e6a9b591413fc1c88d4 = L.circle(
+                [52.367108798106,4.853509738731519],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "None",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 250,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9baf1825b552471b8e2478c1b5bdeed6);
+            
+    
+            var popup_dea8c9817eab49fa99d48947f3987007 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c3bffb9a64f41a08b50cdcddf680a09 = $('<div id="html_5c3bffb9a64f41a08b50cdcddf680a09" style="width: 100.0%; height: 100.0%;">Hoofdweg e.o.</div>')[0];
+                popup_dea8c9817eab49fa99d48947f3987007.setContent(html_5c3bffb9a64f41a08b50cdcddf680a09);
+            
+
+            circle_812721618e374e6a9b591413fc1c88d4.bindPopup(popup_dea8c9817eab49fa99d48947f3987007);
+
+            
+        
+</script>
